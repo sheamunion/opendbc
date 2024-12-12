@@ -674,6 +674,12 @@ FW_VERSIONS = {
       b'8646F0E01200\x00\x00\x00\x00',
       b'8646F0E01300\x00\x00\x00\x00',
     ],
+    (Ecu.transmission, 0x701, None): [
+      b'\x01896650E09100\x00\x00\x00\x00',
+    ],
+    (Ecu.hvac, 0x7C4, None): [
+      b'886500E34202    ',
+    ],
   },
   CAR.TOYOTA_HIGHLANDER_TSS2: {
     (Ecu.eps, 0x7a1, None): [
